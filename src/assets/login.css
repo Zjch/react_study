@@ -1,0 +1,13 @@
+.box{
+    padding-top: 10%;
+}
+.login-form{
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid #e1e1e1;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+.ant-row{
+    margin-bottom: 10px;
+}
