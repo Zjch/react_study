@@ -8,4 +8,5 @@
 
 组件发起一个dispatch()将action传到store
 store在转发给reducer，reducer进行对应操作，return新的state给store
-store把reducer返回的新的state在返回给组件
+store把reducer返回的新的state替换掉旧的state
+组件在进行store.getState()进行试图更新
