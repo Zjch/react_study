@@ -4,9 +4,12 @@ import MD5 from 'md5'
 import { Form, Icon, Input, Button, Row, Col, message } from 'antd';
 import { LoginIn, getCode } from '../http/particularAjax.js'
 
+import store from '../redux/store.js';
+
 class NormalLoginForm extends React.Component {
   constructor(props){
     super(props);
+    console.log(store)
     this.state = {
       username: ''
     }
